@@ -1,110 +1,200 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOBMARLEY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stilospropios.css">
 </head>
+
+
+
 <body>
-<H1>BIOGRAFIA </H1>
-<IMg src="IMAGEN/bob-marley-pictures-8hk0dm3zdaqlgxxs.jpg" width="200" height="150">
-<!-- esto es una linea horizontal-->
-<hr>
-<!-- esto es un video-->
 
-<video  src="VIDEOS/Bob Marley .mp4" width="200" height="150" controls></video>
+    <header>
 
-    <ul>
-        <li>BOBMARLEY</li>
-    </ul>
-<P>Bob Marley fue un influyente cantante, compositor y músico jamaicano, conocido como el principal exponente del reggae y un ícono cultural que promovió la paz y la justicia social.</P>
+        <div id="fondoCabeza"><!--caja padre-->
+            <center>
+                <div id="cajalogo"><!--HIJO Imagen-->
+                    <IMg src="IMAGEN/px.png" id="logo"">
 
-<h3>CANCION</h3>
-<audio src="AUDIO/Bob Marley .mp3" controls></audio>
-<table align="center" border="1" width="500px">
-    <caption>ALCANCE</caption>
+        </div>
+
+        <div id=" testologo" class="cinzel-<uniquifier">
+                    BOB MARLEY
+
+                </div>
+            </center>
+        </div>
+
+
+
+
+
+        <nav id="menupri1">
+            <ul>
+                <li> <a href="#">contacto</a></li>
+                <li> <a href="#">imagen</a></li>
+                <li><a href="#">video</a></li>
+                <li><a href="#">zona</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--secion-->
+        <section id="section1">
+
+            <div id="contenedorvideo">
+                <video src="VIDEOS/Bob Marley .mp4" id="videoprinci" controls></video>
+            </div>
+
+
+            <div id="testoprincipal">
+                <H1 style="color: green;">BIOGRAFIA </H1>
+
+
+                <P>Bob Marley fue un influyente cantante, compositor y músico jamaicano, conocido como el principal
+                    exponente del
+                    reggae y un ícono cultural que promovió la paz y la justicia social.</P>
+            </div>
+
+
+        </section>
+        <!--secion2-->
+        <section id="section2">
+            <div class="serv">
+                <img src="IMAGEN/hj.png" width="150px">
+            </div>
+            <div class="serv">
+                <img src="IMAGEN/hj.png" width="150px">
+            </div>
+            <div class="serv">
+                <img src="IMAGEN/hj.png" width="150px">
+            </div>
+
+
+
+
+        </section>
+        <!--secion3-->
+        <section id="section3">
+
+            <div id="conteneformulario">
+                <form action="" method="">
+
+                    <br>
+                    <label for="nombre1">nombre</label>
+                    <input type="text" name="nombre1" id="nombre1">
+                    <br>
+
+                    <label for="identificacion1">identificacion</label>
+                    <input type="number" name="identificacion1" id="identificacion1">
+                    <br>
+
+                    <label for="correo electronico">correo electronico</label>
+                    <input type="email">
+                    <br>
+
+                    <label for="">contraceña</label>
+                    <input type="password">
+                    <br>
+                    <label>genero</label>
+                    <br>
+
+                    <label for="masulino1">masulino</label>
+                    <input type="radio" name="genero" id="masulino1" value="1">
+                    <label for="femenino1">femenino</label>
+                    <input type="radio" name="genero" id="femenino1" value="2">
+                    otro
+                    <input type="radio" name="genero" id="otro1" value="3">
+                    <br>
+                    <label>¿que opina usted de BOB MAARLEY</label>
+                    <br>
+
+                    <textarea name="textobobmarley" id="textobobmarley" rows="10" cols="40"></textarea>
+
+                    <br>
+
+                    <label for="paisreciden">pais</label>
+                    <select name="paisreciden" id="paisreciden">
+                        <option value="0">SELECCIONE</option>
+                        <option value="1">COLOMBIA</option>
+                        <option value="2">VENEZUELA</option>
+                        <option value="3">PERU</option>
+
+                    </select>
+                    <br>
+                    <input type="submit" value="guardar datos">
+
+                </form>
+            </div>
+            <div id="contenedortobla">
+                <table align="center" border="1" width="500px">
+                    <caption>ALCANCE</caption>
+
+                    <tr>
+                        <th>pais</th>
+                        <th>item</th>
+                        <th>foto</th>
+                        <th>rigmo</th>
+                    </tr>
+                    </thead>
+                    <tbody align="center">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td colspan="2">
+                                <center>caracticas</center>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">jamaica</td>
+                            <td>1</td>
+                            <td>
+                                <center><img src="IMAGEN/OIP (1).webp" width="100px"></center>
+                            </td>
+                            <th>genero</th>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>
+                                <center><img src="IMAGEN/OIP.webp" width="100px"></center>
+                            </td>
+                            <th>genero</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div></div>
+
+        </section>
+    </main>
+
     <thead>
-        <tr>
-            <th>pais</th>
-            <th>item</th>
-            <th>foto</th>
-            <th>rigmo</th>
-        </tr>
-    </thead>
-    <tbody align="center">
-        <tr>
-            <td></td>
-            <td></td>
-            <td colspan="2"><center>caracticas</center></td>
-        </tr>
-        <tr>
-            <td rowspan="2">jamaica</td>
-            <td>1</td>
-            <td><center><img src="IMAGEN/OIP (1).webp" width="100px"></center></td>
-            <th>genero</th>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td><center><img src="IMAGEN/OIP.webp" width="100px"></center></td>
-            <th>genero</th>
-        </tr>
-    </tbody>
-</table>
-
-<!--open for class formuletion-->
-<form action="" method="">
-
-    <br>
-    <label for="nombre1">nombre</label>
-    <input type="text" name="nombre1" id="nombre1">
-    <br>
-
-     <label for="identificacion1">identificacion</label>
-    <input type="number" name="identificacion1" id="identificacion1">
-    <br>
-
-    <label for="correo electronico">correo electronico</label>
-    <input type="email">
-    <br>
-
-      <label for="">contraceña</label>
-    <input type="password" >
-    <br>
-    <label>genero</label>
-    <br>
-
-    <label for="masulino1">masulino</label>
-    <input type="radio" name="genero" id="masulino1" value="1">
-    <label for="femenino1">femenino</label>
-    <input type="radio" name="genero" id="femenino1" value="2">
-    otro
-    <input type="radio" name="genero" id="otro1" value="3">
-    <br>
-    <label>¿que opina usted de BOB MAARLEY</label>
-    <br>
-
-    <textarea name="textobobmarley" id="textobobmarley" rows="10" cols="40"></textarea>
-
-    <br>
-
-    <label for="paisreciden">pais</label>
-    <select name="paisreciden" id="paisreciden">
-        <option value="0">SELECCIONE</option>
-        <option value="1">COLOMBIA</option>
-        <option value="2">VENEZUELA</option>
-        <option value="3">PERU</option>
-
-    </select>
-    <br>
-    <input type="submit" value="guardar datos">
 
 
 
 
+        <h3>CANCION</h3>
 
-</form>
+
+        <ul>
+            <li>BOBMARLEY</li>
+        </ul>
+
+        <audio src="AUDIO/Bob Marley .mp3" controls></audio>
+
+
+
 
 
 
 </body>
+
 </html>

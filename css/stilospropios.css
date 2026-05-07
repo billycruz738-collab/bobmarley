@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cinzel-<uniquifier> {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+#logo
+{
+    width: 400px;
+}
+#fondoCabeza
+{
+    width: 100%;
+    height: 450px;
+    background-color: #F29F05;
+}
+#cajalogo
+{
+    padding-top: 100px;
+}
+#testologo
+{
+
+}
+#menupri1
+{   
+     background-color:#F23030;
+    padding: 7px;
+    box-shadow: 5px 5px 15px rgb(4, 39, 2)
+}
+#menupri1 li
+{
+display: inline-block;
+list-style:none ;
+padding: 10px;
+}
+#menupri1 a
+{
+    text-decoration: none;
+    color: #F2CB05;
+}
+
+#section1
+{
+    display: flex;
+
+}
+#contenedorvideo
+{
+ text-align: center;
+ width: 50%;
+}
+#testoprincipal
+{
+width: 50%;
+text-align: center;
+padding: 10%;
+}
+#videoprinci
+{
+    width: 80%;
+height: 80%;
+border-radius: 25%;
+margin: 20px; ;
+box-shadow: 5px 5px 15px 5px grey;
+}
+#section2
+{
+    display: flex;
+}
